@@ -1,0 +1,10 @@
+target
+*.log
+*.classpath
+*.project
+*.settings
+*.DS_Store
+*.class
+jredis.tmproj
+*.iml
+*.idea
