@@ -5,7 +5,10 @@
                       xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
                       android:layout_height="fill_parent"
                       android:weightSum="1"
-                      android:id="@+id/LinearLayout" android:orientation="vertical" tools:context=".SignIn">
+                      android:id="@+id/LinearLayout"
+                      android:orientation="vertical"
+                      tools:context=".SignIn"
+>
 
         <ImageView
                 android:layout_width="match_parent"

@@ -10,6 +10,8 @@ public class SignIn extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        System.out.println("sign in/up activity begun");
+
     }
 }
 
