@@ -46,9 +46,8 @@
 						</property>
 						<property>
 							<name>jredis.test.password</name>
-							<value>jredis</value>
+							<value></value>
 						</property>
-						<!-- redis tests | Test DBs info *NOTE* THESE WILL BE FLUSHED *NOTE* -->
 						<property>
 							<name>jredis.test.db.1</name>
 							<value>13</value>
@@ -113,9 +112,7 @@
 			<name>Apache 2</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>all</distribution>
-			<comments>Copyright 2009 (c) Joubin Houshyar - All Right Resererved</comments>
-		</license>
-	</licenses>
+			<comment
 	<developers>
 		<developer>
 			<id>joubin</id>
