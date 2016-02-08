@@ -8,7 +8,7 @@
                       android:id="@+id/LinearLayout"
                       android:orientation="vertical"
                       tools:context=".SignIn"
->
+                      android:baselineAligned="true" android:background="#FFFFFF">
 
         <ImageView
                 android:layout_width="match_parent"
@@ -16,6 +16,8 @@
                 android:id="@+id/imageView"
                 android:layout_gravity="center_horizontal"
                 android:src="@mipmap/icon" android:layout_weight="0.02"/>
+
+
             <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -30,6 +32,19 @@
                 android:id="@+id/editText2" android:layout_gravity="center_horizontal"
                 android:hint="Password"
                 android:gravity="center_horizontal" android:textColor="#5e08ce"/>
-    </LinearLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp" android:layout_gravity="center_horizontal"
+            android:layout_weight="1.85">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:text="New Button"
+                android:id="@+id/button" android:layout_gravity="center_horizontal|bottom" android:layout_weight="0.06"
+                android:onClick="buttonOnClick" android:textColor="#FFFFFF" android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#000000"
+                android:background="#9932CC"/>
+    </FrameLayout>
+</LinearLayout>
 
 

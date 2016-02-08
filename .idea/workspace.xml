@@ -24,11 +24,274 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2798748a-cbff-44d7-8b01-34d875c2876f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/hbase-formatter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jedis/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/DEV-NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/RELEASE-NOTES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/redisLib/redis_version_compliance.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/DEV-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/RELEASE-NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/RELEASE-NOTES-Update-03122010.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/RELEASE-NOTES-Update-08132009.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/RELEASE-NOTES-Update-11082009.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/RELEASE_BUILD_TIME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-all-a.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-all-a.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-all-a.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-api-a.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-api-a.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-bench-a.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-bench-a.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-bench-a.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-ri-a.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-ri-a.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-core-ri-a.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-examples-a.0-SNAPSHOT-jar-with-dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-examples-a.0-SNAPSHOT-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/Release/jredis-examples-a.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/all/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/all/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/all/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/ClientRuntimeException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Codec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/JRedis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/JRedisFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/KeyValueSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/NotSupportedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/ObjectEncoding.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/ObjectInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/ProviderException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Query.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Redis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/RedisException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/RedisInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/RedisType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Semantics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/Sort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/ZSetEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/_specification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/Connection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/ConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/ConnectionFault.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/ConnectionReset.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/ConnectionSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/FaultedConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/NotConnectedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/RequestListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/connector/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/BulkResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/Command.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/CommandNotImplemented.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/MultiBulkResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/Protocol.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/Response.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/ResponseStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/StatusResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/ValueResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/protocol/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/resource/Context.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/resource/Resource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/resource/ResourceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/resource/_specification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/resource/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/BasicCodecManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/CodecManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/KeyCodec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/SemanticJRedis.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/SemanticQuery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/SemanticSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/Semantics.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/java/org/jredis/semantics/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/main/resources/META-INF/redis-commands-2.4.n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/test/java/org/jredis/TestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/test/java/org/jredis/compliance/CheckRedisCompliance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/test/java/org/jredis/connector/TestSpecElements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/test/java/org/jredis/protocol/TestCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/api/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/bench/JRedisBenchmark.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/bench/JRedisJProfileSubject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/bench/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/JRedisClientBenchmark.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/JRedisClientJProfileSubject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/JRedisPipelineServiceBenchmark.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/JRedisServiceBenchmark.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/SimpleBenchJRedisAsync.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/SimpleBenchJRedisChunkedPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/SimpleBenchJRedisClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/java/org/jredis/ri/alphazero/bench/SimpleBenchJRedisPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/bench/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/RI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/BulkSetMapping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisAsyncClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisChunkedPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisFutureSupport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisPipelineService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/JRedisSupport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/Pair.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/RedisVersion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/SyncJRedisBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/ZSetEntryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/_specification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/AsyncConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/AsyncPipelineConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/ChunkedPipelineConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/ConnectionBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/DefaultConnectionFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/DefaultConnectionSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/HeartbeatJinn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/PendingRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/PipelineConnectionBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/SyncConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/SyncPipelineConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/connection/UnexpectedEOFException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/ConcurrentSyncProtocol.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/DefaultProtocolFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/ProtocolBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/ResponseSupport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/SyncProtocol.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/protocol/VirtualResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/semantics/DefaultKeyCodec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/semantics/DefaultStringCodec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/semantics/GZipCompressedStringCodec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/Assert.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/Convert.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/DefaultCodec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/FastBufferedInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/GZip.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/Log.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/Signal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/SortSupport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/alphazero/support/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/main/java/org/jredis/ri/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/JRedisTestSuiteBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/ProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/adhoc/AdHocTestChunkPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/adhoc/AdHocTestInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/adhoc/AdHocTestNoConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/ConcurrentJRedisProviderTestsBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisAsyncClientTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisChunkedPipelineClientTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisClientTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisFutureProviderTestsBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisPipelineServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisPipelineTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisProviderTestsBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/JRedisServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/support/ConvertTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/java/org/jredis/ri/alphazero/support/GZipTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/core/ri/src/test/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/documentation/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/documentation/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/documentation/design/diagrams/connector-design/connector-design-a0.1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/documentation/design/diagrams/connector-design/connector-design-a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/documentation/design/notes/api/jredis-api.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/HelloAgain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/PipelineInAction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingConnectionSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingJRedisFuture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingJRedisPipeline.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingJRedisPipelineService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingJRedisService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/commands/UsingBulkCommands.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/commands/UsingZrangeSubset.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/commands/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/examples/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/3rd party Licenses/NET.SPY.MEMCACHED LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/3rd party Licenses/NET.SPY.MEMCACHED NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/ClusterModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/ClusterNodeSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/ClusterSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/ClusterType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/connector/ClusterConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/model/ConsistentHashCluster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/model/StaticHashCluster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/api/src/main/java/org/jredis/cluster/support/HashAlgorithm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/DefaultClusterNodeSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/DefaultClusterSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/connection/ClusterConnectionBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/connection/SynchClusterConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/model/BasicStaticHashCluster.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/model/KetamaClusterModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/model/KetamaHashProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/main/java/org/jredis/ri/cluster/support/CryptoHashUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/ClusterModelProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/ClusterNodeSpecProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/ClusterSpecProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/ClusterSuiteTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/ProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/RefImplTestSuiteBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/models/BasicStaticHashClusterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/models/ConsistentHashClusterProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/models/KetamaClusterModelTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/models/KetamaHashAlgoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/models/StaticHashClusterProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/cluster/support/HashAlgorithmProviderTestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/ri/cluster/ClusterNodeSpecImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/ri/cluster/DefaultClusterSpecTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/ri/cluster/support/CryptoHashUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/extensions/ri/src/test/java/org/jredis/test/util/RunningAverage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jredis-master/redis_version_compliance.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/Fandom.apk" afterPath="$PROJECT_DIR$/out/production/Fandom/Fandom.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/Fandom.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/Fandom/Fandom.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$id.class" afterPath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$layout.class" afterPath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$mipmap.class" afterPath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$string.class" afterPath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/SignIn.class" afterPath="$PROJECT_DIR$/out/production/Fandom/com/Fandom/SignIn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/jredis-master/core/pom.xml" afterPath="$PROJECT_DIR$/libs/jredis-master/core/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fandom.iml" afterPath="$PROJECT_DIR$/Fandom.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Fandom/SignIn.java" afterPath="$PROJECT_DIR$/src/com/Fandom/SignIn.java" />
     </list>
@@ -55,15 +318,47 @@
       <file leaf-file-name="SignIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Fandom/SignIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048154093">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.09677419">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/jredis-master/core/README">
+      <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/android-sdk-macosx/sources/android-23/android/app/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="899" column="19" selection-start-line="899" selection-start-column="19" selection-end-line="899" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/redis/clients/jedis/BinaryClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5925927">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="e#1922#1923#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/maven/redis.clients/jedis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.properties" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/maven/redis.clients/jedis/pom.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -72,21 +367,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/jredis-master/core/pom.xml">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3137255">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsingConnectionSpec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingConnectionSpec.java">
+      <file leaf-file-name="Connection.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/redis/clients/jedis/Connection.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state vertical-scroll-proportion="-11.111111">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,8 +390,8 @@
       <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.75">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,9 +418,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.625">
               <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-              <folding>
-                <element signature="e#424#442#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,8 +445,8 @@
       <list>
         <option value="$PROJECT_DIR$/res/layout/profile.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/libs/jredis-master/core/pom.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/Fandom/SignIn.java" />
       </list>
     </option>
@@ -166,10 +459,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="17" />
-    <option name="width" value="1400" />
-    <option name="height" value="896" />
+    <option name="y" value="8" />
+    <option name="width" value="1440" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,12 +490,49 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Fandom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fandom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-2.4.2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clients" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fandom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-2.4.2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -248,157 +577,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fandom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jredis-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="61eaa143" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -746,6 +937,9 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2798748a-cbff-44d7-8b01-34d875c2876f" name="Default" comment="" />
@@ -756,24 +950,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="17" width="1400" height="896" extended-state="0" />
+    <frame x="0" y="8" width="1440" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16881594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17216118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32722834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21281742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3980464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28357142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18819444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -799,6 +993,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/Fandom/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/redisLib/DEV-NOTES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/profile.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Fandom/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/profile.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -830,9 +1108,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#424#442#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,9 +1150,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#424#442#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -885,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,6 +1209,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mipmap-xxxhdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/redisLib/DEV-NOTES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -953,33 +1236,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/mipmap-xxxhdpi/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-          <folding>
-            <element signature="e#424#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/redis/clients/jedis/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jredis-master/core/README">
+    <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/maven/redis.clients/jedis/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -987,26 +1260,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jredis-master/core/pom.xml">
+    <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3137255">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jredis-master/examples/src/main/java/org/jredis/examples/UsingConnectionSpec.java">
+    <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/redis/clients/jedis/BinaryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5925927">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#1922#1923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/android-sdk-macosx/sources/android-23/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <caret line="899" column="19" selection-start-line="899" selection-start-column="19" selection-end-line="899" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.75">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jedis/jedis-2.4.2.jar!/META-INF/maven/redis.clients/jedis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Fandom/SignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048154093">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.09677419">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
